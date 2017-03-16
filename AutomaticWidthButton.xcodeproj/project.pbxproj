@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49AA585E1E7A8F2700526455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA585D1E7A8F2700526455 /* main.m */; };
+		49AA58611E7A8F2700526455 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA58601E7A8F2700526455 /* AppDelegate.m */; };
+		49AA58641E7A8F2700526455 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA58631E7A8F2700526455 /* ViewController.m */; };
+		49AA58671E7A8F2700526455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AA58651E7A8F2700526455 /* Main.storyboard */; };
+		49AA58691E7A8F2700526455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AA58681E7A8F2700526455 /* Assets.xcassets */; };
+		49AA586C1E7A8F2700526455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AA586A1E7A8F2700526455 /* LaunchScreen.storyboard */; };
+		49AA58771E7A8F2800526455 /* AutomaticWidthButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA58761E7A8F2800526455 /* AutomaticWidthButtonTests.m */; };
+		49AA58821E7A8F2900526455 /* AutomaticWidthButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA58811E7A8F2900526455 /* AutomaticWidthButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49AA58731E7A8F2800526455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49AA58511E7A8F2700526455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49AA58581E7A8F2700526455;
+			remoteInfo = AutomaticWidthButton;
+		};
+		49AA587E1E7A8F2900526455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49AA58511E7A8F2700526455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49AA58581E7A8F2700526455;
+			remoteInfo = AutomaticWidthButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49AA58591E7A8F2700526455 /* AutomaticWidthButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomaticWidthButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AA585D1E7A8F2700526455 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49AA585F1E7A8F2700526455 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49AA58601E7A8F2700526455 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49AA58621E7A8F2700526455 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49AA58631E7A8F2700526455 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49AA58661E7A8F2700526455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49AA58681E7A8F2700526455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49AA586B1E7A8F2700526455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49AA586D1E7A8F2700526455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AA58721E7A8F2800526455 /* AutomaticWidthButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomaticWidthButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AA58761E7A8F2800526455 /* AutomaticWidthButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomaticWidthButtonTests.m; sourceTree = "<group>"; };
+		49AA58781E7A8F2800526455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AA587D1E7A8F2900526455 /* AutomaticWidthButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomaticWidthButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AA58811E7A8F2900526455 /* AutomaticWidthButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomaticWidthButtonUITests.m; sourceTree = "<group>"; };
+		49AA58831E7A8F2900526455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49AA58561E7A8F2700526455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AA586F1E7A8F2800526455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AA587A1E7A8F2800526455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49AA58501E7A8F2700526455 = {
+			isa = PBXGroup;
+			children = (
+				49AA585B1E7A8F2700526455 /* AutomaticWidthButton */,
+				49AA58751E7A8F2800526455 /* AutomaticWidthButtonTests */,
+				49AA58801E7A8F2900526455 /* AutomaticWidthButtonUITests */,
+				49AA585A1E7A8F2700526455 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49AA585A1E7A8F2700526455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49AA58591E7A8F2700526455 /* AutomaticWidthButton.app */,
+				49AA58721E7A8F2800526455 /* AutomaticWidthButtonTests.xctest */,
+				49AA587D1E7A8F2900526455 /* AutomaticWidthButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49AA585B1E7A8F2700526455 /* AutomaticWidthButton */ = {
+			isa = PBXGroup;
+			children = (
+				49AA585F1E7A8F2700526455 /* AppDelegate.h */,
+				49AA58601E7A8F2700526455 /* AppDelegate.m */,
+				49AA58621E7A8F2700526455 /* ViewController.h */,
+				49AA58631E7A8F2700526455 /* ViewController.m */,
+				49AA58651E7A8F2700526455 /* Main.storyboard */,
+				49AA58681E7A8F2700526455 /* Assets.xcassets */,
+				49AA586A1E7A8F2700526455 /* LaunchScreen.storyboard */,
+				49AA586D1E7A8F2700526455 /* Info.plist */,
+				49AA585C1E7A8F2700526455 /* Supporting Files */,
+			);
+			path = AutomaticWidthButton;
+			sourceTree = "<group>";
+		};
+		49AA585C1E7A8F2700526455 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49AA585D1E7A8F2700526455 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49AA58751E7A8F2800526455 /* AutomaticWidthButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				49AA58761E7A8F2800526455 /* AutomaticWidthButtonTests.m */,
+				49AA58781E7A8F2800526455 /* Info.plist */,
+			);
+			path = AutomaticWidthButtonTests;
+			sourceTree = "<group>";
+		};
+		49AA58801E7A8F2900526455 /* AutomaticWidthButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49AA58811E7A8F2900526455 /* AutomaticWidthButtonUITests.m */,
+				49AA58831E7A8F2900526455 /* Info.plist */,
+			);
+			path = AutomaticWidthButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49AA58581E7A8F2700526455 /* AutomaticWidthButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AA58861E7A8F2900526455 /* Build configuration list for PBXNativeTarget "AutomaticWidthButton" */;
+			buildPhases = (
+				49AA58551E7A8F2700526455 /* Sources */,
+				49AA58561E7A8F2700526455 /* Frameworks */,
+				49AA58571E7A8F2700526455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutomaticWidthButton;
+			productName = AutomaticWidthButton;
+			productReference = 49AA58591E7A8F2700526455 /* AutomaticWidthButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49AA58711E7A8F2800526455 /* AutomaticWidthButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AA58891E7A8F2900526455 /* Build configuration list for PBXNativeTarget "AutomaticWidthButtonTests" */;
+			buildPhases = (
+				49AA586E1E7A8F2800526455 /* Sources */,
+				49AA586F1E7A8F2800526455 /* Frameworks */,
+				49AA58701E7A8F2800526455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49AA58741E7A8F2800526455 /* PBXTargetDependency */,
+			);
+			name = AutomaticWidthButtonTests;
+			productName = AutomaticWidthButtonTests;
+			productReference = 49AA58721E7A8F2800526455 /* AutomaticWidthButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49AA587C1E7A8F2800526455 /* AutomaticWidthButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AA588C1E7A8F2900526455 /* Build configuration list for PBXNativeTarget "AutomaticWidthButtonUITests" */;
+			buildPhases = (
+				49AA58791E7A8F2800526455 /* Sources */,
+				49AA587A1E7A8F2800526455 /* Frameworks */,
+				49AA587B1E7A8F2800526455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49AA587F1E7A8F2900526455 /* PBXTargetDependency */,
+			);
+			name = AutomaticWidthButtonUITests;
+			productName = AutomaticWidthButtonUITests;
+			productReference = 49AA587D1E7A8F2900526455 /* AutomaticWidthButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49AA58511E7A8F2700526455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "莫炯昌";
+				TargetAttributes = {
+					49AA58581E7A8F2700526455 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					49AA58711E7A8F2800526455 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 49AA58581E7A8F2700526455;
+					};
+					49AA587C1E7A8F2800526455 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 49AA58581E7A8F2700526455;
+					};
+				};
+			};
+			buildConfigurationList = 49AA58541E7A8F2700526455 /* Build configuration list for PBXProject "AutomaticWidthButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49AA58501E7A8F2700526455;
+			productRefGroup = 49AA585A1E7A8F2700526455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49AA58581E7A8F2700526455 /* AutomaticWidthButton */,
+				49AA58711E7A8F2800526455 /* AutomaticWidthButtonTests */,
+				49AA587C1E7A8F2800526455 /* AutomaticWidthButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49AA58571E7A8F2700526455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AA586C1E7A8F2700526455 /* LaunchScreen.storyboard in Resources */,
+				49AA58691E7A8F2700526455 /* Assets.xcassets in Resources */,
+				49AA58671E7A8F2700526455 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AA58701E7A8F2800526455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AA587B1E7A8F2800526455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49AA58551E7A8F2700526455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AA58641E7A8F2700526455 /* ViewController.m in Sources */,
+				49AA58611E7A8F2700526455 /* AppDelegate.m in Sources */,
+				49AA585E1E7A8F2700526455 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AA586E1E7A8F2800526455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AA58771E7A8F2800526455 /* AutomaticWidthButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AA58791E7A8F2800526455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AA58821E7A8F2900526455 /* AutomaticWidthButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49AA58741E7A8F2800526455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49AA58581E7A8F2700526455 /* AutomaticWidthButton */;
+			targetProxy = 49AA58731E7A8F2800526455 /* PBXContainerItemProxy */;
+		};
+		49AA587F1E7A8F2900526455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49AA58581E7A8F2700526455 /* AutomaticWidthButton */;
+			targetProxy = 49AA587E1E7A8F2900526455 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49AA58651E7A8F2700526455 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49AA58661E7A8F2700526455 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49AA586A1E7A8F2700526455 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49AA586B1E7A8F2700526455 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49AA58841E7A8F2900526455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49AA58851E7A8F2900526455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49AA58871E7A8F2900526455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutomaticWidthButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wlf.AutomaticWidthButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49AA58881E7A8F2900526455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutomaticWidthButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wlf.AutomaticWidthButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49AA588A1E7A8F2900526455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutomaticWidthButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wlf.AutomaticWidthButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutomaticWidthButton.app/AutomaticWidthButton";
+			};
+			name = Debug;
+		};
+		49AA588B1E7A8F2900526455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutomaticWidthButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wlf.AutomaticWidthButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutomaticWidthButton.app/AutomaticWidthButton";
+			};
+			name = Release;
+		};
+		49AA588D1E7A8F2900526455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutomaticWidthButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wlf.AutomaticWidthButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutomaticWidthButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49AA588E1E7A8F2900526455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutomaticWidthButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wlf.AutomaticWidthButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutomaticWidthButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49AA58541E7A8F2700526455 /* Build configuration list for PBXProject "AutomaticWidthButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AA58841E7A8F2900526455 /* Debug */,
+				49AA58851E7A8F2900526455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49AA58861E7A8F2900526455 /* Build configuration list for PBXNativeTarget "AutomaticWidthButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AA58871E7A8F2900526455 /* Debug */,
+				49AA58881E7A8F2900526455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49AA58891E7A8F2900526455 /* Build configuration list for PBXNativeTarget "AutomaticWidthButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AA588A1E7A8F2900526455 /* Debug */,
+				49AA588B1E7A8F2900526455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49AA588C1E7A8F2900526455 /* Build configuration list for PBXNativeTarget "AutomaticWidthButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AA588D1E7A8F2900526455 /* Debug */,
+				49AA588E1E7A8F2900526455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49AA58511E7A8F2700526455 /* Project object */;
+}
