@@ -15,6 +15,9 @@
 		49AA586C1E7A8F2700526455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AA586A1E7A8F2700526455 /* LaunchScreen.storyboard */; };
 		49AA58771E7A8F2800526455 /* AutomaticWidthButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA58761E7A8F2800526455 /* AutomaticWidthButtonTests.m */; };
 		49AA58821E7A8F2900526455 /* AutomaticWidthButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AA58811E7A8F2900526455 /* AutomaticWidthButtonUITests.m */; };
+		49AA58921E7A930A00526455 /* common_btn_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA588F1E7A930A00526455 /* common_btn_search.png */; };
+		49AA58931E7A930A00526455 /* common_btn_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA58901E7A930A00526455 /* common_btn_search@2x.png */; };
+		49AA58941E7A930A00526455 /* common_btn_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA58911E7A930A00526455 /* common_btn_search@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		49AA587D1E7A8F2900526455 /* AutomaticWidthButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomaticWidthButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AA58811E7A8F2900526455 /* AutomaticWidthButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomaticWidthButtonUITests.m; sourceTree = "<group>"; };
 		49AA58831E7A8F2900526455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AA588F1E7A930A00526455 /* common_btn_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_btn_search.png; sourceTree = "<group>"; };
+		49AA58901E7A930A00526455 /* common_btn_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_btn_search@2x.png"; sourceTree = "<group>"; };
+		49AA58911E7A930A00526455 /* common_btn_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_btn_search@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				49AA58681E7A8F2700526455 /* Assets.xcassets */,
 				49AA586A1E7A8F2700526455 /* LaunchScreen.storyboard */,
 				49AA586D1E7A8F2700526455 /* Info.plist */,
+				49AA588F1E7A930A00526455 /* common_btn_search.png */,
+				49AA58901E7A930A00526455 /* common_btn_search@2x.png */,
+				49AA58911E7A930A00526455 /* common_btn_search@3x.png */,
 				49AA585C1E7A8F2700526455 /* Supporting Files */,
 			);
 			path = AutomaticWidthButton;
@@ -244,8 +253,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				49AA586C1E7A8F2700526455 /* LaunchScreen.storyboard in Resources */,
+				49AA58931E7A930A00526455 /* common_btn_search@2x.png in Resources */,
+				49AA58921E7A930A00526455 /* common_btn_search.png in Resources */,
 				49AA58691E7A8F2700526455 /* Assets.xcassets in Resources */,
 				49AA58671E7A8F2700526455 /* Main.storyboard in Resources */,
+				49AA58941E7A930A00526455 /* common_btn_search@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutomaticWidthButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wlf.AutomaticWidthButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutomaticWidthButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wlf.AutomaticWidthButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
